@@ -1,26 +1,5 @@
 alert (" Hello from external file !") ;
 
-/* const name = "John";
-console.log(name); */ 
-
-/* const person = {
-name: "Alice",
-age: 30
-};
-console.log (person); // Output : { name : " Alice " , age : 30 }
-
-const numbers = [1 , 2 , 3 , 4];
-console.log (numbers) ; // Output : [1 , 2 , 3 , 4] */
-
-/*let message = "Hello , world !";
-const PI = 3.1415;
-var oldVariable = 42;
-console.log(message); */
-
-/* let data = 10; // number
-data = "ten "; // now a string
-console.log(data); */
-
 /* let a = 5;
 let b = 2;
 console .log (a + b) ; // 7
