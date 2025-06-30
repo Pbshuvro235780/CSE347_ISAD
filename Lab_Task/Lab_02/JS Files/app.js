@@ -1,4 +1,4 @@
-// alert (" Hello from external file !") ;
+alert (" Hello from external file !") ;
 
 /* const name = "John";
 console.log(name); */ 
@@ -117,10 +117,10 @@ console .log ("Hello , " + this . name ) ;
 
 person . greet () ; // Hello , Alice */
 
-let colors = ["red", " green ", " blue "];
+/* let colors = ["red", " green ", " blue "];
 
 //console .log ( colors [0]) ; // "red "
 colors . push (" yellow ") ; // add item
 //colors . pop () ; // remove last
 
-colors . forEach ( color => console .log ( color ) ) ;
+colors . forEach ( color => console .log ( color ) ) ; */
