@@ -1,52 +1,5 @@
 alert (" Hello from external file !") ;
 
-/* let a = 5;
-let b = 2;
-console .log (a + b) ; // 7
-console .log (a % b) ; // 1 ( modulus ) */
-
-//console.log("Hello World");
-
-/* let x = 10;
-x += 5; // x = 15
-console.log(x); */
-
-/* console.log (5 == "5") ; // true ( loose equality )
-console.log (5 === "5") ; // false ( strict equality ) */
-
-//let b = 2; 
-/* if ( b%2 == 0 ) {
-    console.log("even");
- } else {
-    console.log("odd");
- } */
-
-
-/* let day;
-switch (new Date().getDay()) {
-  case 0:
-    day = "Sunday";
-    break;
-  case 1:
-    day = "Monday";
-    break;
-  case 2:
-    day = "Tuesday";
-    break;
-  case 3:
-    day = "Wednesday";
-    break;
-  case 4:
-    day = "Thursday";
-    break;
-  case 5:
-    day = "Friday";
-    break;
-  case  6:
-    day = "Saturday";
-}
-console.log("Today is " + day); */
-
 /* for(let i=0; i <5; i++) {
 console.log (i) ;
  } */
