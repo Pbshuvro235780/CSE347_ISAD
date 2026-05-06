@@ -1,0 +1,48 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title> Form </title>
+</head>
+<body>
+    <h1 align="center"> Interview Form </h1>
+    <form id="myForm" onsubmit="return validateForm();">
+        <label> First name: </label>
+        <input type="text" name="firstname">
+        <label> Last name: </label>
+        <input type="text" name="lastname"><br><br>
+        <label> Email: </label>
+        <input type="text" name="email">
+        <label> Phone number: </label>
+        <input type="text" name="phonenumber"><br><br>
+        <label> Username: </label>
+        <input type="text" name="user">
+        <label> Password: </label>
+        <input type="password" name="pwd"><br><br>
+        <label> Gender </label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female<br><br>
+        <label> Religion </label>
+        <input type="checkbox" name="religion" value="islam">Islam
+        <input type="checkbox" name="religion" value="hinduism">Hinduism
+        <input type="checkbox" name="religion" value="buddhism">Buddhism
+        <input type="checkbox" name="religion" value="christianity">Christianity
+        <input type="checkbox" name="religion" value="others">Others <br><br> 
+        <label> IT Experience </label>
+        <input type="checkbox" name="itexperience" value="hardwareexpert"> Hardware Expert
+        <input type="checkbox" name="itexperience" value="softwareexpert"> Software Expert
+        <input type="checkbox" name="itexperience" value="networkexpert">  Network  Expert <br><br>
+        <label> Select Department </label>
+        <select name="Department">
+            <option>CSE</option>
+            <option>EEE</option>
+            <option>ICE</option>
+            <option>SWE</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+        <div class="error" id="errorMsg"></div>
+        <script src="script.js"></script>
+    </form>
+</body>
+</html>
